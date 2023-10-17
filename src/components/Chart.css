@@ -1,0 +1,26 @@
+/* Chart styles */
+.chart {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .bar {
+    width: 5%; 
+    text-align: center;
+    color: #fff;
+    margin: 0 5px;
+  }
+  
+  .bar[title="Jan"] {
+    background-color: #3498db;
+  }
+  
+  .bar[title="Feb"] {
+    background-color: #e74c3c;
+  }
+  
+  
